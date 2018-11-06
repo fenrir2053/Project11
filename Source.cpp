@@ -253,6 +253,18 @@ int main() {
 
 		list.add(a);
 
+
+
+
+
+
+
+
+
+
+
+
+
 		list.print();
 	}
 
