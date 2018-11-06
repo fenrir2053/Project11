@@ -168,34 +168,6 @@ public:
 
 		return res;
 	}
-	/*bool removeByIndex_reverse(int index) {
-		bool res = true;
-
-		if (index > len || index < 1) {
-			res = false;
-		}
-		Unit<T>* cur = start;
-		Unit<T>* prev = nullptr;
-		for (int i = 1; i < len; i++) {
-			cur = cur->next;
-		}
-		for (int i = len; i > index; i--) {
-			cur = cur->prev;
-			prev = cur;
-		}
-		if (cur->prev == nullptr) {
-			removeFirst();
-		}
-		else {
-			cur->prev = cur->next;
-		}
-		if (res) {
-			len--;
-		}
-
-
-		return res;
-	}*/
 	
 
 	void print() {
@@ -281,70 +253,11 @@ int main() {
 
 		list.add(a);
 
-		/*list.add(6);
-		list.add(9);
-		list.add(0);*/
-
-
 		list.print();
 	}
 
-	//while (true) {
-	//	cout << "Choose action:\n1)Add\n2)remove by index\n3)remove by value\n4)Get element by index\n5)Print List\n6)Save\n7)Load\n8)Exit" << endl;
-	//	cin >> menu;
-	//	if (menu == 1) {
-	//		double i;
-	//		cout << "Enter value(type:double):" << endl;
-	//		cin >> i;
-	//		//Unit<double> a(i);
-	//		list.add(i);
-	//	}
-	//	if (menu == 2) {
-	//		int i;
-	//		cout << "Enter index:" << endl;
-	//		cin >> i;
-	//		list.removeByIndex(i);
-	//	}
-	//	if (menu == 3) {
-	//		double i;
-	//		cout << "Enter value(type:double):" << endl;
-	//		cin >> i;
-	//		list.removeByValue(i);
-	//	}
-	//	if (menu == 4) {
-	//		int i;
-	//		cout << "Enter index:" << endl;
-	//		cin >> i;
-	//		cout << i << " element= " << list.get(i) << endl;
-	//	}
-	//	if (menu == 5) {
-	//		list.print();
-	//	}
-	//	if (menu == 6) {
-	//		list.save();
-	//	}
-	//	if (menu == 7) {
-	//		list.load();
-	//	}
-	//	if (menu == 8) {
-	//		break;
-	//	}
-
-	//}
-	//
-	//
-	//
-	
-
 	
 	
-	
-
-
-
-
-
-
 	system("pause");
 	return 0;
 }
