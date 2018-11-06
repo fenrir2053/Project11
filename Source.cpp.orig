@@ -240,12 +240,13 @@ int main() {
 	int menu;
 
 
+<<<<<<< HEAD
+	
+=======
 	while (true) {
-		int i;
-
+		double i;
 
 		i = 0;
-	
 
 
 
@@ -263,6 +264,7 @@ int main() {
 
 		list.print();
 	}
+>>>>>>> develop
 
 	
 	
