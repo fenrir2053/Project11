@@ -242,6 +242,12 @@ int main() {
 
 	while (true) {
 		int i;
+
+
+
+
+
+
 		cin >> i;
 		if (i == 0) {
 			break;
