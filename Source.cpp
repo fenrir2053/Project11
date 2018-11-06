@@ -240,39 +240,7 @@ int main() {
 	int menu;
 
 
-	while (true) {
-		int i;
-
-
-
-
-
-
-		cin >> i;
-		if (i == 0) {
-			break;
-		}
-		if (i == 11) {
-			list.load();
-		}
-		Unit<int>* a = new Unit<int>(i);
-
-		list.add(a);
-
-
-
-
-
-
-
-
-
-
-
-
-
-		list.print();
-	}
+	
 
 	
 	
