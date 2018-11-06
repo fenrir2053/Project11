@@ -241,9 +241,9 @@ int main() {
 
 
 	while (true) {
-		int i;
+		double i;
 
-
+		i = 0;
 
 
 
